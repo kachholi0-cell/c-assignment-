@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">CodingGita Feedback Form</h1>
+    <P>We value your Feedback. Please fill out this form to help us improve.</P><br><hr><br>
+    <label for="text">Name:</label>
+    <input type="text"><br><BR>
+    <label for="Email">Email:</label>
+    <input type="email"><br><br>
+    <!-- <P> which course/workshope are you giving feedback for?</P>
+    <input type="radio" -->
+<form method="post" action="#">
+   <P> which course/workshope are you giving feedback for?</P>
+   <input type="checkbox" value="MERN stack Course">[MERN stack Course]
+   <input type="checkbox" value="DSA">[DSA Bootcamp]
+   <input type="checkbox" value="Web Development Workshop">[Web Development Workshop]<br><br>
+
+   <label for="text">Rate your experience:</label><BR>
+   <input type="checkbox">🌟
+   <input type="checkbox">🌟
+<input type="checkbox">🌟
+<input type="checkbox">🌟
+<input type="checkbox">🌟
+</form><br>
+<label for="text">What expect are you giving feedback on?</label><BR>
+<input type="checkbox">Contant Quality
+<input type="checkbox">Teaching method
+<input type="checkbox">Support & Guidance
+<input type="checkbox">Overall experience<br><br>
+<label for="text">Additional Suggestions:</label><br>
+<input type="Textarea"><br><br>
+<label for="text">How satisfied are you ?</label>
+<input type="range"  value="5"  min="1" max="10" name="rating"  id="rating" oninput="output.value=rating.value">
+<output id="output">5</output><br><br>
+<label for="name">would recomend your friend ?</label><br>
+<input type="radio"  name="would recomend your friend ?" value="yes">yes
+
+<input type="radio" name="would recomend your friend ?" value="no">no<br><br>
+
+<label for="text">Date of Feedback:</label>
+<input type="date"><br><br>
+
+<form method="post" action="#">
+    <input type="submit">
+    <input type="reset">
+</form>
+
+
+
+
+</body>
+</html>
